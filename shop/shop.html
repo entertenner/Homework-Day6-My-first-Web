@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shop</title>
+</head>
+<body>
+    <h1>แนะนำร้านอาหาร</h1>
+    <h2>รายชื่อร้านอาหาร</h2>
+<hr>
+<h1>ร้านอาหารอีสาน</h1>
+<p>เมนูอาหาร</p>
+    <ol type="1">
+        <li>ส้มตำ</li>
+                <ul type="square">
+                    <li>ตำปูปลาร้า</li>
+                    <li>ตำไทย</li>
+                    <li>ตำกุ้งสด</li>
+                </ul>
+        <li>ไก่ย่าง</li>
+        <li>ปีกไก่</li>
+        <li>ยำหน่อไม้ดอง</li>
+        <li>ยำกุ้งสด</li>
+    </ol>
+<hr>
+<h1>ร้านอาหารใต้</h1>
+<p>เมนูอาหาร</p>
+    <ul type="disc"> <!--square,circle-->
+        <li>ข้าวยำปักษ์ใต้</li>
+        <li>ขสตอผัดกุ้ง</li>
+        <li>ขแกงไตปลา</li>
+    </ul>
+<hr>
+<h1>การสร้างตาราง รายการสิ้นค้า</h1>
+    <table border="1" bgcolor="green" width="50%">
+        <thead>
+            <th>ภาพสินค้า</th>
+            <th>ชื่อสินค้า</th>
+            <th>ราคา(บาท)</th>
+            <th>ดำเนินการสั่งซื้อ</th>
+        </thead>
+        <tbody>
+            <tr bgcolor="pink" align="center">
+                <td><img src="https://cdn.pixabay.com/photo/2015/04/07/07/51/papaya-salad-710613_640.jpg" alt="" width="100px" height="100px"></td>
+                <td>ส้มตำ</td>
+                <td>30.00</td>
+                <td rowspan="2"><a href="#">สั่งซื้อ</a></td> <!--ผสานแถว-->
+            </tr>
+            <tr align="center">
+                <td><img src="https://cdn.pixabay.com/photo/2018/07/03/10/46/berry-3513546_1280.jpg" alt="" width="200px" height="200px"></td>
+                <td>ผัก</td>
+                <td>20.00</td>
+            <!--<td><a href="#">สั่งซื้อ</a></td>-->
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="4">รวม</td> <!--ผสานคอลั่ม-->
+            </tr>
+        </tfoot>
+    </table>
+
+    <a href="../Index.html">กลับหน้าหลัก</a>
+</body>
+</html>
